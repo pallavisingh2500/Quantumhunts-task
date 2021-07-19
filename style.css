@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.678)),
+        url("http://st2.depositphotos.com/3889193/8015/i/450/depositphotos_80150442-Smiling-female-doctor-holding-medical-records.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  }
+  .nav-e{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    margin: 0 40px;
+    font-size: 28px;
+    color: white;
+  }
+  .cover-container {
+    max-width: 60vw;
+  }
+  
+  .nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  
+  .nav-link:hover {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+  .btn-secondary,
+  .btn-secondary:hover {
+    color: #333;
+    text-shadow: none;
+  }
+
+  /* title */
+  .title h1{
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    font-size:40px ;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    color:black;
+}
+.title h1::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title h1::after{
+    
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 18px;
+    /* color: #74bdb3 ; */
+    color: #2dccaa;
+    background: #fff;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+.title h1::after{
+    content: "we save the life";
+}
+  
+  #feature{
+      margin-top: 30px;
+      padding: 10px;
+     
+  }
+  #feature .card{
+      display: flex;
+      justify-content: center;
+      box-shadow: 2px 3px 1px gray;
+      color:black;
+      /* background-color: #d2e7fa; */
+      padding: 20px;
+     
+  }
+  #feature .card img{
+      height:200px;
+      border-radius: 20px;
+  }
+  #about{
+      background-color: coral;
+      padding: 50px;
+      margin: 50px;
+      border-radius: 4px 170px 4px 170px ;
+  }
+
+
+  /* about */
+  .main{
+    background-image: linear-gradient(to left, #ffffff 80%, #6ede8a 40%);
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h1{
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    font-size:40px ;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+.title h1::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.title h1::after{
+    
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 18px;
+    /* color: #74bdb3 ; */
+    color: #bdba00;
+    background: #fff;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+.about .title h1::after{
+    content: "Who he is";
+}
+.textside{
+    padding-left: 50px;
+}
+.textside h1{
+    padding: 0 0 5px 40px;
+    color: rgb(61, 52, 52);
+    font-weight: bold;
+ 
+}
+.texts{
+    padding-left: 45px;
+    font-size: 27px;
+    font-weight: 500;
+}
+.texts span{
+    color: #69aaa1;
+   
+}
+.textside h4{
+    padding: 50px 0 0 40px;
+    font-variant: small-caps;
+    font-size: 28px;
+}
+.textside p{
+    padding: 10px 0 20px 40px;
+    text-align: justify;
+    font-size: 18px;
+    color:black;
+}
+.picarea{
+    display: flex;
+    justify-content: center;
+}
+.img{
+     transition: all 0.3s ease-in-out;
+     height:440px; 
+     width:440px;
+   }
+.img:hover{
+    transform: rotate(0deg) skew(0deg) translate(-5px, -20px);
+    height: 445px;
+    width: 445px;
+}
+
+
+/* footer */
+
+.social-menu ul {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+} 
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 22px;
+    line-height: 34px;
+    transition: 0.2s;
+}
+ .social-menu ul li .fa:hover {
+    color: #ffffff;
+} 
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.3s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #25D366;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
